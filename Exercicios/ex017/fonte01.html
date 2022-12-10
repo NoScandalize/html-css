@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BT">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            /* font-size:16px,1em; */
+            font-weight: normal;
+            /* font-weight: lighter, normal, bold, bolder; */
+            /* font-weight: 100 - 900; <- Variação do peso */
+            font-style: italic, normal;
+            text-decoration: underline;
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style - > font-weight -> font-size -> font-family 
+            
+            font-family: sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em sans-serif;
+        }
+
+        h2 {
+            font: bold 2em sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab placeat omnis consectetur dicta dignissimos doloremque impedit aspernatur velit, id quibusdam beatae pariatur molestiae sit debitis, perferendis quod rerum sed corporis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, eveniet optio veniam amet tempore quod accusantium dolores ab. Molestiae, dolor nostrum! Fugit magnam soluta aperiam modi tempora ab vero porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatibus architecto perferendis nulla dicta optio doloribus debitis adipisci, perspiciatis ipsa labore fugiat itaque repudiandae soluta error? Ipsam ea repellendus impedit?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi tempore distinctio commodi pariatur unde alias optio. Eveniet nulla nemo ullam non repellendus, nobis pariatur quisquam at accusamus! Dicta, qui eligendi.
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis saepe dolor voluptas unde animi modi, itaque, nulla, necessitatibus possimus dignissimos quia maxime id ipsum nostrum ipsam ad eum quasi error?</p>
+</body>
+</html>

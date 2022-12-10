@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to top, #1A5C38, #3DDA84);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    padding-top: 15px;
+    font-weight: 400;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    font-size: 1em;
+}
+
+
+.nav-menu {
+    display: flex;
+    text-indent: 10px;
+    padding-top: 25px;
+    gap: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav-menu a {
+    color: white;
+    -webkit-transition: all .2s ease-in;
+}
+
+.nav-menu a:hover {
+    display: block;
+    color: rgb(150, 150, 150);
+}
+
+main {
+    width: 840px;
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 0px auto 20px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    font-family: 'idroid', sans-serif;
+    color: #1B5C38;
+    padding: 10px;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, #C6ECD6, white);
+    color: #316F4D;
+    text-indent: 5px;
+    margin: 10px;
+    font-family: 'idroid';
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main a {
+    color: #1B5C38;
+    font-weight: bolder;
+}
+
+img {
+    position: relative;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+}
+
+
+.destaque {
+    color: #1A5C38;
+    font-weight: bolder;
+}
+
+.pvideo {
+    border-top: 20px solid #1A5C38;
+    border-bottom: 20px solid #1A5C38;
+    border-left: 30px solid #1A5C38;
+    border-right: 30px solid #1A5C38;
+    margin: -10px;
+    margin-top: 10px;
+}
+
+.boxextra {
+    margin: 10px;
+    margin-top: 30px;
+    background-color: #C5EBD6;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.boxextratitulo {
+    color: white;
+    background-color: #2FA866;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    text-indent: 5px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.lista a {
+    color: black;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.listaesquerda {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: auto;
+}
+
+.listadireita {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #1A5C38;
+    padding: 5px;
+    color: rgb(154, 179, 154);
+}
+
+.destaquefooter {
+    font-weight: bolder;
+    color: white;
+}
