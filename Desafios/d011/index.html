@@ -7,23 +7,24 @@
     <title>Astonauta</title>
     <style>
         body {
-            height: 100vh;
+            position: relative;
+            height: 90vh;
             background-image: url('imagens/espaco.jpg');
             background-position: center center;
             background-size: cover;
         }
 
         div.astronauta {
-            height: 100vh;
-            background-image: url('imagens/astronauta.png');
-            background-repeat: no-repeat;
-            background-position: center center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate( -50%, -50%);
         }
     </style>
 </head>
 <body>
     <div class="astronauta">
-
+        <img src="imagens/astronauta.png" alt="Astonauta">
     </div>
 </body>
 </html>
